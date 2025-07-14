@@ -1,0 +1,30 @@
+/* styles/custom.css */
+.custom-btn {
+  transition: transform 0.2s ease;
+}
+
+.custom-btn:hover {
+  transform: scale(1.02);
+}
+
+.bg-light-gradient {
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+}
+
+/* styles/custom.css */
+
+.leaderboard-card {
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+.leaderboard-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.rank-col {
+  text-align: center;
+  width: 80px;
+}
